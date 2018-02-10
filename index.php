@@ -16,7 +16,9 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-		<a class="navbar-brand" href="#">iClean</a>
+		<a class="navbar-brand" href="#">
+			<img src="img/logo.svg" alt="iClean" width="30" height="30" class="d-inline-block align-top"> iClean
+		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -51,7 +53,7 @@
 
 	<main role="main">
 		<!-- Main jumbotron for a primary marketing message or call to action -->
-		<div class="jumbotron">
+		<div class="jumbotron" id="jumbo_main">
 			<div class="container">
 				<h1 class="display-3">iClean</h1>
 				<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
@@ -62,31 +64,58 @@
 		<div class="container">
 			<!-- Example row of columns -->
 			<div class="row">
-				<div class="col-md-4">
-					<h2>Heading</h2>
+				<div class="col-md-6 info_col">
+                    <h2>Heading</h2>
 <!--					img-->
-					<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-					<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+					<img src="http://placehold.it/300x200" alt="" class="img-rounded">
+					<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+<!--					<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-6 info_col">
 					<h2>Heading</h2>
-					<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-					<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-				</div>
-				<div class="col-md-4">
-					<h2>Heading</h2>
-					<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-					<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+					<!--					img-->
+					<img src="http://placehold.it/300x200" alt="" class="img-rounded">
+					<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+<!--					<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
 				</div>
 			</div>
 
-			<hr>
+<!--			<hr>-->
+
+		</div> <!-- /container -->
+
+		<div class="jumbotron" id="jumbo_sec">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						IMG
+					</div>
+					<div class="col-md-8">
+						TEXT
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h2>Instagram</h2>
+					<!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/4299afe11ef05093b703fd242a330fcf.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+				</div>
+				<div class="col-md-6">
+					<h2>Facebook</h2>
+				</div>
+			</div>
+
+			<!--			<hr>-->
 
 		</div> <!-- /container -->
 
 	</main>
 
 <!--	 hr -->
+	<hr>
 
 	<footer class="container">
 		<p>&copy; iClean 2018</p>
