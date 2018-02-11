@@ -8,6 +8,9 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
 }
 
 #jumbo_main {
@@ -37,13 +40,11 @@ body {
 }
 
 .info_col > img {
-	width: 30%;
+	width: 20%;
 	margin-right: 10px;
-	/*display: block;*/
 	float: left;
-	/*margin-left: auto;*/
-	/*margin-right: auto;*/
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 }
+

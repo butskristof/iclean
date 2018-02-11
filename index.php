@@ -12,7 +12,8 @@
 	<title>iClean</title>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/jumbotron.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 </head>
 <body>
 	<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
@@ -67,14 +68,16 @@
 				<div class="col-md-6 info_col">
                     <h2>Heading</h2>
 <!--					img-->
-					<img src="http://placehold.it/300x200" alt="" class="img-rounded">
+<!--					<img src="http://placehold.it/300x200" alt="" class="img-rounded">-->
+					<img src="img/borstel.svg" alt="" class="img-rounded">
 					<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 <!--					<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
 				</div>
 				<div class="col-md-6 info_col">
 					<h2>Heading</h2>
 					<!--					img-->
-					<img src="http://placehold.it/300x200" alt="" class="img-rounded">
+<!--					<img src="http://placehold.it/300x200" alt="" class="img-rounded">-->
+					<img src="img/ventje.svg" alt="" class="img-rounded">
 					<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 <!--					<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
 				</div>
@@ -118,7 +121,14 @@
 	<hr>
 
 	<footer class="container">
-		<p>&copy; iClean 2018</p>
+		<span class="float-left">
+			<i class="fab fa-facebook"></i>
+			<i class="fab fa-instagram"></i>
+			<i class="far fa-envelope"></i>
+		</span>
+		<span class="float-right">
+            <p>&copy; 2018 iClean</p>
+		</span>
 	</footer>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
