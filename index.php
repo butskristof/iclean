@@ -17,38 +17,40 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-		<a class="navbar-brand" href="#">
-			<img src="img/logo.svg" alt="iClean" width="30" height="30" class="d-inline-block align-top"> iClean
-		</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<img src="img/logo.svg" alt="iClean" width="30" height="30" class="d-inline-block align-top"> iClean
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-		<div class="collapse navbar-collapse" id="navbarsExampleDefault">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Over ons</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Diensten</a>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown_ref" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Referenties</a>
-					<div class="dropdown-menu" aria-labelledby="dropdown_ref">
-						<a class="dropdown-item" href="#">Particulier</a>
-						<a class="dropdown-item" href="#">Zakelijk</a>
-					</div>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Contact</a>
-				</li>
-			</ul>
-			<span class="navbar-text">
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Over ons</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Diensten</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown_ref" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Referenties</a>
+						<div class="dropdown-menu" aria-labelledby="dropdown_ref">
+							<a class="dropdown-item" href="#">Particulier</a>
+							<a class="dropdown-item" href="#">Zakelijk</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact</a>
+					</li>
+				</ul>
+				<span class="navbar-text">
 				iClean: uw ruit, onze zorg
             </span>
+			</div>
 		</div>
 	</nav>
 
@@ -69,7 +71,7 @@
                     <h2>Heading</h2>
 <!--					img-->
 <!--					<img src="http://placehold.it/300x200" alt="" class="img-rounded">-->
-					<img src="img/borstel.svg" alt="" class="img-rounded">
+					<img src="img/borstel.svg" alt="">
 					<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 <!--					<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
 				</div>
@@ -77,7 +79,7 @@
 					<h2>Heading</h2>
 					<!--					img-->
 <!--					<img src="http://placehold.it/300x200" alt="" class="img-rounded">-->
-					<img src="img/ventje.svg" alt="" class="img-rounded">
+					<img src="img/ventje.svg" alt="">
 					<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 <!--					<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
 				</div>
