@@ -1,0 +1,59 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+	padding-top: 3.5rem;
+}
+
+.jumbotron {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+#jumbo_main {
+	/*background-image: url("../img/window-cleaner.jpg");*/
+	background-image: url("../img/pexels-photo.jpg");
+	/*height: 500px;*/
+}
+
+#jumbo_sec {
+	background-image: url("../img/pexels-photo-69903.jpeg");
+	/*height: 500px;*/
+}
+
+.jumbotron > .container {
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+}
+
+.info_col {
+	text-align: justify;
+	margin-bottom: 50px;
+}
+
+.info_col > h2 {
+	text-align: center;
+}
+
+.info_col > img {
+	width: 20%;
+	margin-right: 10px;
+	float: left;
+	/*-webkit-border-radius: 10px;*/
+	/*-moz-border-radius: 10px;*/
+	/*border-radius: 10px;*/
+}
+
+.icons svg {
+	margin: 0 2px;
+}
+
+.icons > a, a:hover, a:visited, a:active {
+	color: black;
+	text-decoration: none;
+}
+
