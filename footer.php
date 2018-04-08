@@ -1,11 +1,3 @@
-<?php
-/**
- * Created by IntelliJ IDEA.
- * User: butskristof
- * Date: 07/04/2018
- * Time: 20:43
- */
-?>
 <hr>
 
 <footer class="container">
