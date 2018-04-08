@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
     <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="img/logo.svg" alt="iClean" width="30" height="30" class="d-inline-block align-top"> iClean
+        <a class="navbar-brand" href="/">
+            <img src="/img/logo.svg" alt="iClean" width="30" height="30" class="d-inline-block align-top"> iClean
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

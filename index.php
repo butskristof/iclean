@@ -14,6 +14,8 @@ $request_uri = explode('?', $_SERVER['REQUEST_URI'], 2);
 switch ($request_uri[0]) {
 	// Home page
 	case '/':
+		// overload -> no break
+	case '/home':
 		echo $templates->render('home');
 		break;
 	case '/diensten':
@@ -29,7 +31,7 @@ switch ($request_uri[0]) {
 	default:
 		// TODO improve 404
 		header('HTTP/1.0 404 Not Found');
-		echo '404';
+		echo $templates->render('404');
 		break;
 }
 

@@ -12,7 +12,7 @@
             </a>
 <!--			EMAIL-->
 <!--			TODO contact form of bot ignore -->
-			<a href="roemel@kristofbuts.be">
+			<a href="mailto:roemel@kristofbuts.be">
                 <i class="far fa-envelope fa-lg"></i>
 			</a>
 <!--			WHATSAPP -->
