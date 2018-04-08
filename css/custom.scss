@@ -1,6 +1,10 @@
+// include roboto
+$font-stack: Roboto, Helvetica, sans-serif;
+
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
 	padding-top: 3.5rem;
+	font: 100% $font-stack;
 }
 
 .jumbotron {
@@ -50,13 +54,12 @@ body {
 
 .icons {
 	svg {
-		margin: 0 2px;
+		margin: 0 3px;
 	}
+
 	// TODO find fix
 	a {
-		a:hover, a:visited, a:active {
-			color: black;
-			text-decoration: none;
-		}
+		color: black;
+		text-decoration: none;
 	}
 }

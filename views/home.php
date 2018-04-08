@@ -12,7 +12,7 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-6 col-md-2-offset info_col">
+		<div class="col-md-6 info_col">
 			<h2>Heading</h2>
 			<img src="/img/borstel.svg" alt="">
 			<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
@@ -45,11 +45,11 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-6">
+		<div class="col-md-6 info_col">
 			<h2>Instagram</h2>
 			<!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/4299afe11ef05093b703fd242a330fcf.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-6 info_col">
 			<h2>Facebook</h2>
 		</div>
 	</div>
