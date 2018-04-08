@@ -16,6 +16,9 @@ switch ($request_uri[0]) {
 	case '/':
 		echo $templates->render('home');
 		break;
+	case '/diensten':
+		echo $templates->render('diensten');
+		break;
 	// About page
 	case '/about':
 		echo 'About';
