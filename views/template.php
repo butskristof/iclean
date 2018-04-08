@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-	<?php include('head.php'); ?>
+	<?php $this->insert('partials/header', ['title' => $this->e($title)]); ?>
 </head>
 <body>
 
-<?php $id="home"; include('nav.php'); ?>
+<?php
+	//$id="home"; include('nav.php');
+	$this->insert('partials/nav', ['id' => 'home']);
+?>
 
 <main role="main">
-	<?php
-	// content here
-	?>
+
+	<?=$this->section('content')?>
+
 </main>
 
-<?php include('footer.php'); ?>
+<?php $this->insert('partials/footer'); ?>
 
 </body>
 </html>

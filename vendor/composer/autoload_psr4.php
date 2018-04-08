@@ -10,4 +10,5 @@ return array(
     'Spatie\\Menu\\' => array($vendorDir . '/spatie/menu/src'),
     'Spatie\\Macroable\\' => array($vendorDir . '/spatie/macroable/src'),
     'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src'),
+    'League\\Plates\\' => array($vendorDir . '/league/plates/src'),
 );
