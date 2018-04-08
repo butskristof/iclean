@@ -17,6 +17,10 @@ class ComposerStaticInit508ddcf508482d8f4dca95e5d2224a34
         array (
             'Psr\\Http\\Message\\' => 17,
         ),
+        'L' => 
+        array (
+            'League\\Plates\\' => 14,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -35,6 +39,10 @@ class ComposerStaticInit508ddcf508482d8f4dca95e5d2224a34
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
+        'League\\Plates\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/plates/src',
         ),
     );
 

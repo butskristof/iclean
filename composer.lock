@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6e61169886143f446c61742ee04248bb",
     "content-hash": "25d10bf092e569cda818993763e08836",
     "packages": [
         {
@@ -60,7 +59,7 @@
                 "templating",
                 "views"
             ],
-            "time": "2016-12-28 00:14:17"
+            "time": "2016-12-28T00:14:17+00:00"
         },
         {
             "name": "psr/http-message",
@@ -110,7 +109,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06 14:39:51"
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "spatie/macroable",
@@ -156,7 +155,7 @@
                 "macroable",
                 "spatie"
             ],
-            "time": "2017-09-18 09:51:20"
+            "time": "2017-09-18T09:51:20+00:00"
         },
         {
             "name": "spatie/menu",
@@ -204,7 +203,7 @@
                 "navigation",
                 "spatie"
             ],
-            "time": "2018-03-02 10:22:01"
+            "time": "2018-03-02T10:22:01+00:00"
         },
         {
             "name": "spatie/url",
@@ -252,7 +251,7 @@
                 "spatie",
                 "url"
             ],
-            "time": "2018-01-02 20:50:05"
+            "time": "2018-01-02T20:50:05+00:00"
         }
     ],
     "packages-dev": [],

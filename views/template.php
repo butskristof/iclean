@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-	<?php $this->insert('partials/header', ['title' => $this->e($title)]); ?>
+	<?php
+		$this->insert('partials/head', ['title' => $this->e($title)]);
+	?>
 </head>
 <body>
 
 <?php
-	//$id="home"; include('nav.php');
-	$this->insert('partials/nav', ['id' => 'home']);
+	$this->insert('partials/nav', ['id' => $this->e($id)]);
 ?>
 
 <main role="main">
