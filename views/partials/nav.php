@@ -10,9 +10,9 @@
         <div class="collapse navbar-collapse" id="menu">
             <?php include('menu.php'); ?>
 			<?php /* put span with navbar text inside of collapsing div */ ?>
-			<span class="navbar-text">
-                iClean: uw ruit, onze zorg
-            </span>
+<!--			<span class="navbar-text">-->
+<!--                iClean: uw ruit, onze zorg-->
+<!--            </span>-->
         </div>
     </div>
 </nav>

@@ -1,7 +1,11 @@
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
 	padding-top: 3.5rem;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Quicksand', 'Open Sans', sans-serif;
+}
+
+nav {
+	/*background-color: #444444;*/
 }
 
 .jumbotron {
@@ -16,18 +20,28 @@ body {
 
 #jumbo_main {
 	/*background-image: url("../img/window-cleaner.jpg");*/
-	background-image: url("../img/pexels-photo.jpg");
-	height: 500px;
+	/*background-image: url("../img/pexels-photo-sm.jpg");*/
+	/*background-image: url("/img/IMG_7400-cr.jpg");*/
+	/*background-image: url("/img/picolo.jpg");*/
+	background-image: url("/img/osmoworks-over-ons-02.jpg");
+	/*height: 500px;*/
+	/*background-image: url("/img/trui_og_bw.jpg");*/
+	height: 75vh;
 }
 
 #jumbo_main h1 {
 	text-align: center;
 }
 
+#jumbo_main p {
+	font-size: 1.2em;
+}
+
 #jumbo_sec {
 	/*background-image: url("../img/pexels-photo-69903.jpeg");*/
-	background-image: url("/img/trui.jpg");
-	/*height: 500px;*/
+	/*background-image: url("/img/trui_og-bw0.jpg");*/
+	background-image: url("/img/IMG_7400-cr.jpg");
+	height: 800px;
 }
 
 #jumbo_sec .btn {
@@ -66,3 +80,8 @@ body {
 	   color: black;
 	   text-decoration: none;
 }
+
+/*footer {*/
+	/*height: 3em;*/
+	/*position: absolute;*/
+/*}*/
