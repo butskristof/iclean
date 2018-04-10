@@ -1,6 +1,7 @@
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
 	padding-top: 3.5rem;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .jumbotron {
@@ -16,18 +17,27 @@ body {
 #jumbo_main {
 	/*background-image: url("../img/window-cleaner.jpg");*/
 	background-image: url("../img/pexels-photo.jpg");
-	/*height: 500px;*/
+	height: 500px;
+}
+
+#jumbo_main h1 {
+	text-align: center;
 }
 
 #jumbo_sec {
-	background-image: url("../img/pexels-photo-69903.jpeg");
+	/*background-image: url("../img/pexels-photo-69903.jpeg");*/
+	background-image: url("/img/trui.jpg");
 	/*height: 500px;*/
+}
+
+#jumbo_sec .btn {
+	text-align: center;
 }
 
 .jumbotron > .container {
 	padding: 20px;
-	background-color: rgba(255, 255, 255, 0.5);
-	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.6);
+	vertical-align: middle;
 }
 
 .info_col {
@@ -49,11 +59,10 @@ body {
 }
 
 .icons svg {
-	margin: 0 2px;
+	margin: 0 3px;
 }
 
-.icons > a, a:hover, a:visited, a:active {
-	color: black;
-	text-decoration: none;
+.icons a {
+	   color: black;
+	   text-decoration: none;
 }
-
