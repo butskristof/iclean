@@ -1,4 +1,4 @@
-<?php $this->layout('template', ['title' => 'iClean', 'id' => 'home']) ?>
+<?php $this->layout('template', ['title' => 'iClean', 'id' => 'home', 'extracss' => '/css/home.css']) ?>
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron d-flex align-items-center h100" id="jumbo_main">

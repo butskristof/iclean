@@ -12,3 +12,9 @@
 <link rel="stylesheet" href="/css/custom_old.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+<?php
+	if ($this->e($extracss)) { ?>
+		<link rel="stylesheet" href="<?=$this->e($extracss)?>">
+	<?php }
+?>

@@ -2,7 +2,7 @@
 <html lang="nl">
 <head>
 	<?php
-		$this->insert('partials/head', ['title' => $this->e($title)]);
+		$this->insert('partials/head', ['title' => $this->e($title), 'extracss' => $this->e($extracss)]);
 	?>
 </head>
 <body>
