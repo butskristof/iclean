@@ -1,2 +1,9 @@
-#jumbo_sec img {
-  width: 100%; }
+#jumbo_sec {
+	text-align: justify;
+}
+
+#jumbo_sec .btn {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+}
