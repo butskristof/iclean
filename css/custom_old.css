@@ -8,6 +8,7 @@ nav {
 	/*background-color: #444444;*/
 }
 
+
 .jumbotron {
 	background-attachment: fixed;
 	background-position: center;
@@ -31,10 +32,16 @@ nav {
 
 #jumbo_main h1 {
 	text-align: center;
+	font-size: 5em;
 }
 
 #jumbo_main p {
 	font-size: 1.2em;
+}
+
+#jumbo_main .lead {
+	text-align: center;
+	font-size: 2em;
 }
 
 #jumbo_sec {

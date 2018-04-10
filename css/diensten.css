@@ -1,10 +1,20 @@
 .row {
-	margin: 35px 0;
+	margin: 0 0 35px 0;
 }
 
 h1 {
 	text-align: center;
 	margin: 40px 0;
+}
+
+h2 {
+}
+
+.col-md-6 img {
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #photos .row {
@@ -21,6 +31,9 @@ h2 {
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	hyphens: auto;
+
+
+	text-align: center;
 }
 
 

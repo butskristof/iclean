@@ -21,12 +21,12 @@
 			<h2>Contactformulier</h2>
 			<form action="#">
 				<div class="form-group">
-					<label for="email">E-mailadres</label>
-					<input type="email" class="form-control" id="email" aria-describedby="E-mailadres" placeholder="E-mailadres">
-				</div>
-				<div class="form-group">
 					<label for="name">Naam</label>
 					<input type="text" class="form-control" id="name" aria-describedby="Naam" placeholder="Naam">
+				</div>
+				<div class="form-group">
+					<label for="email">E-mailadres</label>
+					<input type="email" class="form-control" id="email" aria-describedby="E-mailadres" placeholder="E-mailadres">
 				</div>
 				<div class="form-group">
 					<label for="content">Uw bericht</label>
