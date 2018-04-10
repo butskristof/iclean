@@ -1,6 +1,5 @@
 <?php $this->layout('template', ['title' => 'iClean', 'id' => 'home']) ?>
 
-
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron" id="jumbo_main">
 	<div class="container">
@@ -10,7 +9,17 @@
 	</div>
 </div>
 
-<div class="container">
+<div class="container" style="display:none;">
+	<div class="row justify-content-center">
+		<div class="col-md-6 info_col">
+			<h2>Heading</h2>
+			<img src="/img/borstel.svg" alt="">
+			<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+		</div>
+	</div><!-- /row -->
+</div><!-- /container -->
+
+<div class="container" style="display: none;">
 	<div class="row">
 		<div class="col-md-6 info_col">
 			<h2>Heading</h2>
@@ -25,9 +34,23 @@
 <!--					<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
 		</div>
 	</div>
+</div> <!-- /container -->
 
-<!--			<hr>-->
-
+<div class="container">
+	<div class="row">
+		<div class="col-md-4 offset-md-1 info_col">
+			<h2>Heading</h2>
+			<img src="/img/borstel.svg" alt="">
+			<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+			<!--					<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+		</div>
+		<div class="col-md-4 offset-md-2 info_col">
+			<h2>Heading</h2>
+			<img src="/img/ventje.svg" alt="">
+			<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+			<!--					<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>-->
+		</div>
+	</div>
 </div> <!-- /container -->
 
 <div class="jumbotron" id="jumbo_sec">
