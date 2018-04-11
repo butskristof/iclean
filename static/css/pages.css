@@ -8,3 +8,18 @@ Styling for other pages
   display: block;
   width: 70%;
   margin: 20px auto; }
+
+#referenties img {
+  max-height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+#referenties .row {
+  margin: 20px auto; }
+
+@media (max-width: 767px) {
+  #referenties img {
+    max-height: none;
+    width: 80%;
+    margin: 10px auto; } }

@@ -30,7 +30,7 @@ Styling specifically for home page
 #jumbo_sec {
   background-image: url("/static/img/bg/bg2.jpg");
   height: 85vh; }
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     #jumbo_sec {
       height: 120%; } }
   #jumbo_sec #services_btn {

@@ -19,6 +19,9 @@ switch ($request_uri[0]) {
 	case '/diensten':
 		echo $templates->render('diensten');
 		break;
+	case '/referenties':
+		echo $templates->render('referenties');
+		break;
 	case '/contact':
 		echo $templates->render('contact');
 		break;
