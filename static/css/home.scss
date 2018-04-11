@@ -44,13 +44,17 @@ Styling specifically for home page
 #jumbo_sec {
 	background-image: url("/static/img/bg/bg2.jpg");
 	height: 85vh;
+	@media (max-width: 768px) {
+		height: 120%; // make sure jumbo fits img + text when stacked
+	}
 	
-	.btn {
+	#services_btn {
 		text-align: center;
 	}
 
 	// vertically center text next to photo
 	#jumbo_sec_text {
+		text-align: justify;
 		display: flex;
 		align-items: center;
 	}

@@ -40,7 +40,7 @@
 				<div>
 					<h2>Koptekst</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec diam et augue tincidunt rhoncus sagittis a magna. Nam mollis bibendum lacus, vitae pharetra lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam et massa non orci elementum lacinia eu at ex. Proin enim nisl, feugiat id scelerisque sed, imperdiet nec massa. Vivamus imperdiet erat a tortor pulvinar tincidunt. Vestibulum porttitor posuere diam, quis ullamcorper metus malesuada in. Duis luctus orci quis nisi vehicula accumsan. </p>
-					<p><a class="btn btn-secondary" href="/diensten" role="button">Onze diensten &raquo;</a></p>
+					<p id="services_btn"><a class="btn btn-secondary mx-auto" href="/diensten" role="button">Onze diensten &raquo;</a></p>
 				</div><!-- /id="jumbo_sec_text" -->
 			</div><!-- /col-md-8 -->
 		</div><!-- /row -->

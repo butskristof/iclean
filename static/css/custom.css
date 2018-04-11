@@ -21,9 +21,18 @@ nav img {
   -moz-hyphens: auto;
   hyphens: auto; }
 
-footer .icons svg {
-  margin: 0 3px; }
+footer {
+  height: 3em;
+  vertical-align: middle; }
+  footer .icons {
+    font-size: 1.3em; }
+    footer .icons svg {
+      margin: 0 3px; }
+    footer .icons a {
+      color: black;
+      text-decoration: none; }
 
-footer .icons a {
-  color: black;
-  text-decoration: none; }
+form .btn {
+  display: block;
+  width: 200px;
+  margin: 0 auto; }

@@ -30,9 +30,13 @@ Styling specifically for home page
 #jumbo_sec {
   background-image: url("/static/img/bg/bg2.jpg");
   height: 85vh; }
-  #jumbo_sec .btn {
+  @media (max-width: 768px) {
+    #jumbo_sec {
+      height: 120%; } }
+  #jumbo_sec #services_btn {
     text-align: center; }
   #jumbo_sec #jumbo_sec_text {
+    text-align: justify;
     display: flex;
     align-items: center; }
 

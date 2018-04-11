@@ -33,8 +33,11 @@ nav {
 }
 
 footer {
+	height: 3em;
+	vertical-align: middle;
 	// TODO make footer taller
 	.icons {
+		font-size: 1.3em;
 		svg {
 			margin: 0 3px;
 		}
@@ -44,4 +47,10 @@ footer {
 			text-decoration: none;
 		}
 	}
+}
+
+form .btn {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
 }
