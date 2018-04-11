@@ -28,7 +28,7 @@ Styling specifically for home page
 
 #jumbo_main {
 	background-image: url("/static/img/bg/bg1.jpg");
-	height: 50vh;
+	height: 75vh;
 
 	text-align: center;
 
@@ -43,16 +43,16 @@ Styling specifically for home page
 
 #jumbo_sec {
 	background-image: url("/static/img/bg/bg2.jpg");
-	height: 90vh;
+	height: 85vh;
 	
 	.btn {
 		text-align: center;
 	}
 
+	// vertically center text next to photo
 	#jumbo_sec_text {
-		//display: flex;
-		//align-items: center;
-		//vertical-align: middle;
+		display: flex;
+		align-items: center;
 	}
 }
 
@@ -69,4 +69,8 @@ Styling specifically for home page
 		margin-right: 10px;
 		float: left;
 	}
+}
+
+.social h2 {
+	text-align: center;
 }
