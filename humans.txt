@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Kristof Buts -- Web Developer -- github.com/butskristof
+
+# THANKS
+
+    <name>
+    Mitch Falchou
+    Yannick Van Gorp
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css, HTML5 Boilerplate, Bootstrap,
+    Plates, Spatie\Menu, Famax, LightWidget

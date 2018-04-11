@@ -1,0 +1,72 @@
+/*
+Styling specifically for home page
+ */
+
+.jumbotron {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	margin: 0;
+
+	// vertical center
+	display: flex;
+	align-items: center;
+
+	.container {
+		padding: 20px;
+		background: rgba(255, 255, 255, 0.6);
+
+		h1 {
+			margin: 0;
+		}
+	}
+}
+
+#jumbo_main {
+	background-image: url("/static/img/bg/bg1.jpg");
+	height: 50vh;
+
+	text-align: center;
+
+	h1 {
+		font-size: 5em;
+	}
+
+	.lead {
+		font-size: 2em;
+	}
+}
+
+#jumbo_sec {
+	background-image: url("/static/img/bg/bg2.jpg");
+	height: 90vh;
+	
+	.btn {
+		text-align: center;
+	}
+
+	#jumbo_sec_text {
+		//display: flex;
+		//align-items: center;
+		//vertical-align: middle;
+	}
+}
+
+.info_col {
+	text-align: justify;
+	margin: 25px 0;
+
+	h2 {
+		text-align: center;
+	}
+
+	img {
+		width: 20%;
+		margin-right: 10px;
+		float: left;
+	}
+}

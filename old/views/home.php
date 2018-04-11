@@ -35,7 +35,7 @@
 			<div class="col-md-4">
 				<img src="/img/trui_og-cr2.jpg" alt="Switch A12" class="img-fluid">
 			</div>
-			<div class="col-md-8">
+			<div class="col-md-8" id="jumbo_sec_text">
 				<h2>Iets over werk</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec diam et augue tincidunt rhoncus sagittis a magna. Nam mollis bibendum lacus, vitae pharetra lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam et massa non orci elementum lacinia eu at ex. Proin enim nisl, feugiat id scelerisque sed, imperdiet nec massa. Vivamus imperdiet erat a tortor pulvinar tincidunt. Vestibulum porttitor posuere diam, quis ullamcorper metus malesuada in. Duis luctus orci quis nisi vehicula accumsan. </p>
 				<p><a class="btn btn-secondary" href="/diensten" role="button">Onze diensten &raquo;</a></p>
