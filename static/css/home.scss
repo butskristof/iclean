@@ -28,7 +28,7 @@ Styling specifically for home page
 
 #jumbo_main {
 	background-image: url("/static/img/bg/bg1.jpg");
-	height: 75vh;
+	height: 65vh;
 
 	text-align: center;
 
@@ -72,6 +72,19 @@ Styling specifically for home page
 		width: 20%;
 		margin-right: 10px;
 		float: left;
+	}
+
+	#info_col_contact {
+		font-size: 1.3em;
+		img {
+			//width: 100%;
+			//clear: bottom;
+			//margin-right: 20px;
+			position: absolute;
+		}
+		svg {
+			margin-left: 25%;
+		}
 	}
 }
 

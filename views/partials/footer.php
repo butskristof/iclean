@@ -27,6 +27,7 @@
 	<div class="modal fade" tabindex="-1" role="dialog" id="contactModal">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
+				<form action="/contact" role="form" method="post">
 				<div class="modal-header">
 					<h5 class="modal-title">Contact</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -35,24 +36,23 @@
 				</div>
 				<div class="modal-body">
 					<!--				MODAL BODY-->
-					<form action="#">
-						<div class="form-group">
-							<label for="email">E-mailadres</label>
-							<input type="email" class="form-control" id="email" aria-describedby="E-mailadres" placeholder="E-mailadres">
-						</div>
 						<div class="form-group">
 							<label for="name">Naam</label>
-							<input type="text" class="form-control" id="name" aria-describedby="Naam" placeholder="Naam">
+							<input type="text" class="form-control" id="name" name="name" aria-describedby="Naam" placeholder="Naam" required>
+						</div>
+						<div class="form-group">
+							<label for="email">E-mailadres</label>
+							<input type="email" class="form-control" id="email" name="email" aria-describedby="E-mailadres" placeholder="E-mailadres" required>
 						</div>
 						<div class="form-group">
 							<label for="content">Uw bericht</label>
-							<textarea class="form-control" id="content" aria-describedby="Uw bericht" placeholder="Uw bericht"></textarea>
+							<textarea class="form-control" id="content" name="msgcontent" aria-describedby="Uw bericht" placeholder="Uw bericht" required></textarea>
 						</div>
-					</form>
 				</div>
 				<div class="modal-footer">
 					<button type="submit" class="btn btn-secondary">Versturen</button>
 				</div>
+				</form>
 			</div>
 		</div>
 	</div>

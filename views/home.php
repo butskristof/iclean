@@ -14,9 +14,14 @@
 <div class="container">
 	<div class="row">
 		<div class="col-md-6 info_col">
-			<h2>Koptekst</h2>
-			<img src="/static/img/logo/logo.svg" alt="iClean logo">
-			<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+			<h2>Contact</h2>
+			<div id="info_col_contact">
+				<img src="/static/img/logo/logo.svg" alt="iClean logo">
+				<i class="fas fa-phone"></i> +32 477 43 08 65 <br>
+				<i class="far fa-envelope"></i> iclean@telenet.be <br>
+				<i class="fab fa-facebook fa-lg"></i> iClean <br>
+				<i class="fab fa-instagram fa-lg"></i> iclean1 <br>
+			</div>
 		</div><!-- /col-md-6 info_col -->
 
 		<div class="col-md-6 info_col">

@@ -20,7 +20,7 @@ Styling specifically for home page
 
 #jumbo_main {
   background-image: url("/static/img/bg/bg1.jpg");
-  height: 75vh;
+  height: 65vh;
   text-align: center; }
   #jumbo_main h1 {
     font-size: 5em; }
@@ -49,6 +49,12 @@ Styling specifically for home page
     width: 20%;
     margin-right: 10px;
     float: left; }
+  .info_col #info_col_contact {
+    font-size: 1.3em; }
+    .info_col #info_col_contact img {
+      position: absolute; }
+    .info_col #info_col_contact svg {
+      margin-left: 25%; }
 
 .social h2 {
   text-align: center; }

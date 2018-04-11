@@ -1,6 +1,9 @@
 <?php $this->layout('template', ['title' => 'iClean - Contact', 'id' => 'contact', 'extracss' => '/css/diensten.css']) ?>
 
 <div class="container">
+
+	<?php include "partials/contactform.php"; ?>
+
 	<h1>Contact</h1>
 
 	<div class="row">
@@ -19,18 +22,18 @@
 		</div>
 		<div class="col-md-8">
 			<h2>Contactformulier</h2>
-			<form action="#">
+			<form action="contact.php" role="form" method="post">
 				<div class="form-group">
 					<label for="name">Naam</label>
-					<input type="text" class="form-control" id="name" aria-describedby="Naam" placeholder="Naam">
+					<input type="text" class="form-control" id="name" name="name" aria-describedby="Naam" placeholder="Naam" value="<?php echo htmlspecialchars($_POST['name']); ?>" required>
 				</div>
 				<div class="form-group">
 					<label for="email">E-mailadres</label>
-					<input type="email" class="form-control" id="email" aria-describedby="E-mailadres" placeholder="E-mailadres">
+					<input type="email" class="form-control" id="email" name="email" aria-describedby="E-mailadres" placeholder="E-mailadres" value="<?php echo htmlspecialchars($_POST['email']); ?>" required>
 				</div>
 				<div class="form-group">
 					<label for="content">Uw bericht</label>
-					<textarea class="form-control" id="content" aria-describedby="Uw bericht" placeholder="Uw bericht"></textarea>
+					<textarea class="form-control" id="content" name="msgcontent" aria-describedby="Uw bericht" placeholder="Uw bericht" required><?php echo htmlspecialchars($_POST['msgcontent']); ?></textarea>
 				</div>
 				<button type="submit" class="btn btn-secondary">Versturen</button>
 			</form>
