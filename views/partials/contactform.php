@@ -2,15 +2,20 @@
 
 if (!empty($_POST)) {
 	$name = $_POST['name'];
-	$email = $_POST['email'];
-	$message = $_POST['msgcontent'];
-	$from = 'iClean contactformulier';
+//	$email = $_POST['email'];
+	$email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+	$msgcontent = $_POST['msgcontent'];
+
 	$to = 'iclean@kristofbuts.be';
+	$from = 'iclean@kristofbuts.be';
 	$subject = 'Bericht van contactformulier';
 
-	$body = "From: $name\n E-Mail: $email\n Message:\n $message";
+	$message = 'Van: ' . $name . "\r\n" . "E-mail: " . $email . "\r\n";
+	$message .= 'Bericht: ' . "\r\n" . $msgcontent;
 
-	$errors = [];
+	$headers = "From: $from\r\nReply-to: $email";
+
+	$errors = []; // initialise empty array for error messages
 
 	// Check if name has been entered
 	if (!$_POST['name']) {
@@ -28,9 +33,8 @@ if (!empty($_POST)) {
 	}
 
 	// If there are no errors, send the email
-//	if (!$errName && !$errEmail && !$errMessage) {
 	if (empty($errors)) {
-		if (mail ($to, $subject, $body, $from)) {
+		if (mail ($to, $subject, $message, $headers)) {
 			echo '<div class="alert alert-success">Bedankt voor uw bericht, we nemen zo snel mogelijk contact met u op.</div>';
 		} else {
 			echo '<div class="alert alert-danger">Er ging iets mis met het versturen van uw bericht, gelieve opnieuw te proberen.</div>';
