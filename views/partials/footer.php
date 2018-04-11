@@ -3,11 +3,11 @@
 	<footer class="container">
 			<span class="float-left icons">
 	<!--			FB-->
-				<a href="https://facebook.com/sotromusic">
+				<a href="https://facebook.com/kljwiekevorst" target="_blank">
 					<i class="fab fa-facebook fa-lg"></i>
 				</a>
 				<!--			INSTA-->
-				<a href="https://www.instagram.com/iclean1/">
+				<a href="https://www.instagram.com/iclean1/" target="_blank">
 					<i class="fab fa-instagram fa-lg"></i>
 				</a>
 				<!--			EMAIL-->
@@ -16,7 +16,7 @@
 					<!--	<button type="button" data-toggle="modal" data-target="#contactModal">Launch modal</button>-->
 				</a>
 				<!--			WHATSAPP -->
-				<a href="https://api.whatsapp.com/send?phone=32477430865">
+				<a href="https://api.whatsapp.com/send?phone=32477430865" target="_blank">
 					<i class="fab fa-whatsapp fa-lg"></i></a>
 			</span>
 		<span class="float-right">

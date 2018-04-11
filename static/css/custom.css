@@ -36,3 +36,6 @@ form .btn {
   display: block;
   width: 200px;
   margin: 0 auto; }
+
+.invisible {
+  display: none; }

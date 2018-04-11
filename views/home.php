@@ -17,10 +17,22 @@
 			<h2>Contact</h2>
 			<div id="info_col_contact">
 				<img src="/static/img/logo/logo.svg" alt="iClean logo">
-				<i class="fas fa-phone"></i> +32 477 43 08 65 <br>
-				<i class="far fa-envelope"></i> iclean@telenet.be <br>
-				<i class="fab fa-facebook fa-lg"></i> iClean <br>
-				<i class="fab fa-instagram fa-lg"></i> iclean1 <br>
+
+				<div class="contactlinks">
+					<i class="fas fa-phone"></i> +32 477 43 08 65 <br>
+
+					<a href="#" data-toggle="modal" data-target="#contactModal">
+						<i class="far fa-envelope"></i> iclean<span class="invisible">notreallyshowingthis</span>@telenet.be <br>
+					</a>
+
+					<a href="https://www.facebook.com/kljwiekevorst" target="_blank">
+						<i class="fab fa-facebook fa-lg"></i> iClean <br>
+					</a>
+
+					<a href="https://www.instagram.com/iclean1/" target="_blank">
+						<i class="fab fa-instagram fa-lg"></i> iclean1 <br>
+					</a>
+				</div><!-- /contactlinks -->
 			</div>
 		</div><!-- /col-md-6 info_col -->
 
