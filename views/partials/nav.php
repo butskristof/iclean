@@ -9,10 +9,13 @@
 		</button>
 
 		<div class="collapse navbar-collapse" id="menu">
-			<?php include('menu.php'); ?>
-			<span class="navbar-text">
+			<?php include('menu.php');
+			// only display tag phrase in upper right corner if it isn't the home page
+			if ($id != 'home') {?>
+				<span class="navbar-text">
 				iClean: uw ruit, onze zorg
 			</span>
+			<?php }	?>
 		</div><!-- /collapse -->
 	</div><!-- /container -->
 </nav>

@@ -6,7 +6,6 @@ $menu = Spatie\Menu\Menu::new()
 	->add(Spatie\Menu\Link::to("/contact", "Contact")->addClass("nav-link")->addParentClass("nav-item"))
 	->setActive('/' . $this->e($id)); // '/' + id form the url
 
-
 echo $menu->render();
 
 ?>
