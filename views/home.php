@@ -16,16 +16,14 @@
 	<div class="row">
 
 		<div class="col-md-6 info_col">
-
 			<h2>Contact</h2>
 
 			<div class="row" id="info_col_contact">
-
-				<div class="col-md-4">
+				<div class="col-4 col-md-4 offset-md-1">
 					<img src="/static/img/logo/logo.svg" alt="iClean logo">
-				</div><!-- /col-md-4 -->
-
-				<div class="col-md-8 contactlinks">
+				</div><!-- /col-4 -->
+				<div class="col-8 col-md-7">
+				<div class="contactlinks">
 					<i class="fas fa-phone"></i> +32 477 43 08 65 <br>
 
 					<a href="#" data-toggle="modal" data-target="#contactModal">
@@ -43,8 +41,8 @@
 					<a href="https://api.whatsapp.com/send?phone=32477430865" target="_blank">
 						<i class="fab fa-whatsapp fa-lg"></i> +32 477 43 08 65
 					</a>
-				</div><!-- /col-md-8 -->
-
+				</div>
+				</div><!-- /col-8 -->
 			</div>
 		</div><!-- /col-md-6 info_col -->
 

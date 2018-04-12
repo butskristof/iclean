@@ -18,7 +18,7 @@ Styling specifically for home page
 
 	.container {
 		padding: 20px;
-		background: rgba(255, 255, 255, 0.6);
+		background: rgba(255, 255, 255, 0.7);
 
 		h1 {
 			margin: 0;
@@ -75,14 +75,11 @@ Styling specifically for home page
 	}
 
 	#info_col_contact {
-		font-size: 1.3em;
 		img {
 			width: 100%;
-			//clear: bottom;
-			//margin-right: 20px;
-			//position: absolute;
 		}
-		//svg {
+		font-size: 1.3em;
+		//.contactlinks {
 		//	margin-left: 25%;
 		//}
 	}
