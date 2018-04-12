@@ -52,9 +52,7 @@ Styling specifically for home page
   .info_col #info_col_contact {
     font-size: 1.3em; }
     .info_col #info_col_contact img {
-      position: absolute; }
-    .info_col #info_col_contact svg {
-      margin-left: 25%; }
+      width: 100%; }
 
 .social h2 {
   text-align: center; }

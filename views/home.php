@@ -12,13 +12,20 @@
 <!-- SALES POINTS -->
 
 <div class="container">
-	<div class="row">
-		<div class="col-md-6 info_col">
-			<h2>Contact</h2>
-			<div id="info_col_contact">
-				<img src="/static/img/logo/logo.svg" alt="iClean logo">
 
-				<div class="contactlinks">
+	<div class="row">
+
+		<div class="col-md-6 info_col">
+
+			<h2>Contact</h2>
+
+			<div class="row" id="info_col_contact">
+
+				<div class="col-md-4">
+					<img src="/static/img/logo/logo.svg" alt="iClean logo">
+				</div><!-- /col-md-4 -->
+
+				<div class="col-md-8 contactlinks">
 					<i class="fas fa-phone"></i> +32 477 43 08 65 <br>
 
 					<a href="#" data-toggle="modal" data-target="#contactModal">
@@ -32,16 +39,25 @@
 					<a href="https://www.instagram.com/iclean1/" target="_blank">
 						<i class="fab fa-instagram fa-lg"></i> iclean1 <br>
 					</a>
-				</div><!-- /contactlinks -->
+
+					<a href="https://api.whatsapp.com/send?phone=32477430865" target="_blank">
+						<i class="fab fa-whatsapp fa-lg"></i> +32 477 43 08 65
+					</a>
+				</div><!-- /col-md-8 -->
+
 			</div>
 		</div><!-- /col-md-6 info_col -->
 
 		<div class="col-md-6 info_col">
 			<h2>Koptekst</h2>
+
 			<img src="/static/img/logo/ventje.svg" alt="Illustratie van een man die een ruit kuist">
+
 			<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. </p>
 		</div><!-- /col-md-6 info_col -->
+
 	</div><!-- /row -->
+
 </div><!-- /container -->
 
 
