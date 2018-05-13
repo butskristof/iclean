@@ -6,7 +6,7 @@
 
 	<?php
 	$files = scandir("static/img/refs/");
-	$files = glob('static/img/refs/*.{jpg,jpeg,png,gif}', GLOB_BRACE);
+	$files = glob('static/img/refs/*.{jpg,JPG,jpeg,JPEG,png,PNG,gif,GIF}', GLOB_BRACE);
 
 	$noOfFiles = sizeof($files);
 
@@ -22,7 +22,7 @@
 
 					<div class="col-md-3">
 						<a href="<?= $files[$i + $j] ?>" class="mfp-link">
-							<img src="<?= $files[$i + $j] ?>" alt="Test" class="img-fluid">
+							<img src="<?= $files[$i + $j] ?>" alt="<?= $files[$i+$j] ?>" class="img-fluid">
 						</a>
 					</div><!-- /col-md-3 -->
 
