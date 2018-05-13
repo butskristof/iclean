@@ -46,7 +46,7 @@
 						</div>
 						<div class="form-group">
 							<label for="content">Uw bericht</label>
-							<textarea class="form-control" id="content" name="msgcontent" aria-describedby="Uw bericht" placeholder="Uw bericht" required></textarea>
+							<textarea class="form-control" rows="5" id="content" name="msgcontent" aria-describedby="Uw bericht" placeholder="Uw bericht" required></textarea>
 						</div>
 				</div>
 				<div class="modal-footer">
