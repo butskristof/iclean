@@ -2,6 +2,9 @@
 Styles to be used site-wide
  */
 
+$textselectionbg: #999999;
+$textselectioncolour: white;
+
 body {
 	padding-top: 3.5rem; // move down content because of fixed navbar
 	font-family: 'Quicksand', 'Open Sans', sans-serif;
@@ -11,6 +14,17 @@ nav {
 	img	{
 		height: 30px;
 	}
+}
+
+::selection {
+	/* WebKit/Blink Browsers */
+	background: $textselectionbg;
+	color: $textselectioncolour;
+}
+::-moz-selection {
+	/* Gecko Browsers */
+	background: $textselectionbg;
+	color: $textselectioncolour;
 }
 
 .container {

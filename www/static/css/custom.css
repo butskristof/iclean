@@ -8,6 +8,16 @@ body {
 nav img {
   height: 30px; }
 
+::selection {
+  /* WebKit/Blink Browsers */
+  background: #999999;
+  color: white; }
+
+::-moz-selection {
+  /* Gecko Browsers */
+  background: #999999;
+  color: white; }
+
 .container h1 {
   text-align: center;
   margin: 40px 0; }
