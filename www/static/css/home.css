@@ -46,7 +46,7 @@ Styling specifically for home page
 
 .info_col {
   text-align: justify;
-  margin: 25px 0; }
+  margin: 25px auto; }
   .info_col h2 {
     text-align: center; }
   .info_col img {

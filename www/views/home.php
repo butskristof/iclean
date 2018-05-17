@@ -15,43 +15,18 @@
 
 	<div class="row">
 
-		<div class="col-md-6 info_col">
-			<h2>Contact</h2>
 
-			<div class="row" id="info_col_contact">
-				<div class="col-4 col-md-4 offset-md-1">
-					<img src="/static/img/logo/logo.svg" alt="iClean logo">
-				</div><!-- /col-4 -->
-				<div class="col-8 col-md-7">
-				<div class="contactlinks">
-					<i class="fas fa-phone"></i> +32 477 43 08 65 <br>
+		<div class="col-md-8 offset-md-2 info_col">
+<!--			<h2>Koptekst</h2>-->
 
-					<a href="#" data-toggle="modal" data-target="#contactModal">
-						<i class="far fa-envelope"></i> iclean<span class="invisible">notreallyshowingthis</span>@telenet.be <br>
-					</a>
+			<img src="/static/img/logo/logo.svg" alt="Illustratie van een man die een ruit kuist">
 
-					<a href="https://www.facebook.com/kljwiekevorst" target="_blank">
-						<i class="fab fa-facebook fa-lg"></i> iClean <br>
-					</a>
+			<p>
+				Welkom bij iClean. Te weinig tijd om zelf uw ramen te reinigen? Moeilijk bereikbare plaatsen? Maak hier vandaag nog komaf mee!  iClean richt zich vooral op particulieren en KMO’s in regio Antwerpen.
+				<br>
+				Wij staan steeds garant voor een vlotte en vlekkeloze service. Heeft u een vraag of wenst u een offerte op maat? Twijfel dan niet om ons te contacteren!
 
-					<a href="https://www.instagram.com/iclean1/" target="_blank">
-						<i class="fab fa-instagram fa-lg"></i> iclean1 <br>
-					</a>
-
-					<a href="https://api.whatsapp.com/send?phone=32477430865" target="_blank">
-						<i class="fab fa-whatsapp fa-lg"></i> +32 477 43 08 65
-					</a>
-				</div>
-				</div><!-- /col-8 -->
-			</div>
-		</div><!-- /col-md-6 info_col -->
-
-		<div class="col-md-6 info_col">
-			<h2>Koptekst</h2>
-
-			<img src="/static/img/logo/ventje.svg" alt="Illustratie van een man die een ruit kuist">
-
-			<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Donec id elit non mi porta gravida at eget metus. </p>
+			</p>
 		</div><!-- /col-md-6 info_col -->
 
 	</div><!-- /row -->
@@ -65,12 +40,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
-				<img src="/static/img/foto/trui.jpg" alt="Mitch Falchou, zaakvoerder" class="img-fluid">
+<!--				<img src="/static/img/foto/trui.jpg" alt="Mitch Falchou, zaakvoerder" class="img-fluid">-->
+				<img src="/static/img/refs/IMG_1171.jpg" alt="Mitch Falchou, zaakvoerder" class="img-fluid">
 			</div><!-- /col-md-4 -->
 			<div class="col-md-8" id="jumbo_sec_text">
 				<div>
-					<h2>Koptekst</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec diam et augue tincidunt rhoncus sagittis a magna. Nam mollis bibendum lacus, vitae pharetra lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam et massa non orci elementum lacinia eu at ex. Proin enim nisl, feugiat id scelerisque sed, imperdiet nec massa. Vivamus imperdiet erat a tortor pulvinar tincidunt. Vestibulum porttitor posuere diam, quis ullamcorper metus malesuada in. Duis luctus orci quis nisi vehicula accumsan. </p>
+					<h2>Diensten</h2>
+					<p>Sinds kort beschikken wij over een mobiel osmose systeem. Met dit systeem kunnen grote hoogtes bereikt worden vanop de grond. De tank is gevuld met osmosewater, welk verdeeld wordt via een slang en een uitschuifbare steel. Osmosewater is water waaruit alle onzuiverheden zijn gefilterd. Dit zorgt ervoor dat het water vlekkeloos opdroogt op verschillende oppervlakken. Het water werkt ook als een soort behandeling voor de ruiten en werkt vuilafstotend. Dit zorgt steeds voor de mooie glans op de ramen. Neem gerust een kijkje op onze diensten pagina. Hierop kan u bekijken welke taken iClean voor z’n rekening neemt.</p>
 					<p id="services_btn"><a class="btn btn-secondary mx-auto" href="/diensten" role="button">Onze diensten &raquo;</a></p>
 				</div><!-- /id="jumbo_sec_text" -->
 			</div><!-- /col-md-8 -->

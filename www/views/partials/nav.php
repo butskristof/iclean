@@ -11,9 +11,11 @@
 		<div class="collapse navbar-collapse" id="menu">
 			<?php include('menu.php');
 			// only display tag phrase in upper right corner if it isn't the home page
-			if ($id != 'home') {?>
+//			if ($id != 'home') {
+			if (true) {
+				?>
 				<span class="navbar-text">
-				iClean: uw ruit, onze zorg
+				+32 477 43 08 65
 			</span>
 			<?php }	?>
 		</div><!-- /collapse -->
