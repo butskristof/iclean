@@ -13,10 +13,9 @@
 
 <div class="container">
 
-	<div class="row">
+	<div class="row info_col">
 
-
-		<div class="col-md-8 info_col">
+		<div class="col-md-8">
 <!--			<h2>Koptekst</h2>-->
 
 			<img src="/static/img/logo/logo.svg" alt="Illustratie van een man die een ruit kuist">
@@ -28,7 +27,7 @@
 			</p>
 		</div><!-- /col-md-6 info_col -->
 
-		<div class="col-md-3 offset-md-1 info_col">
+		<div class="col-md-3 offset-md-1">
 			<div class="contactlinks" id="info_col_contact">
 				<i class="fas fa-phone"></i> +32 477 43 08 65 <br>
 
