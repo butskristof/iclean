@@ -9,13 +9,13 @@
 			<h2>Contactgegevens</h2>
 			<dl>
 				<dt>Bedrijfsnaam</dt>
-				<dd>iClean</dd>
+					<dd>iClean</dd>
 				<dt>Zaakvoerder</dt>
-				<dd>Mitch Falchou</dd>
+					<dd>Mitch Falchou</dd>
 				<dt>Telefoonnummer</dt>
-				<dd>+32 12 34 56 78</dd>
+					<dd>0474 39 01 40 </dd>
 				<dt>BTW-nummer</dt>
-				<dd>BE0</dd>
+					<dd>BE0648 746 787</dd>
 			</dl>
 		</div><!-- /col-md-4 -->
 		<div class="col-md-8">

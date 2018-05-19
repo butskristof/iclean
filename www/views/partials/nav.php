@@ -12,7 +12,7 @@
 			<?php include('menu.php');
 			// only display tag phrase in upper right corner if it isn't the home page
 			if ($id != 'home') {?>
-				<span class="navbar-text">
+				<span class="navbar-text hidden-md">
 				iClean: uw ruit, onze zorg
 			</span>
 			<?php }	?>

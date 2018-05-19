@@ -8,6 +8,10 @@ body {
 nav img {
   height: 30px; }
 
+@media (max-width: 992px) {
+  .hidden-md {
+    display: none; } }
+
 ::selection {
   /* WebKit/Blink Browsers */
   background: #999999;

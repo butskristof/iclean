@@ -29,7 +29,7 @@
 
 		<div class="col-md-3 offset-md-1">
 			<div class="contactlinks" id="info_col_contact">
-				<i class="fas fa-phone"></i> +32 477 43 08 65 <br>
+				<i class="fas fa-phone"></i> 0474 39 01 40 <br>
 
 				<a href="#" data-toggle="modal" data-target="#contactModal">
 					<i class="far fa-envelope"></i> iclean<span class="invisible">notreallyshowingthis</span>@telenet.be <br>
@@ -43,8 +43,8 @@
 					<i class="fab fa-instagram fa-lg"></i> iclean1 <br>
 				</a>
 
-				<a href="https://api.whatsapp.com/send?phone=32477430865" target="_blank">
-					<i class="fab fa-whatsapp fa-lg"></i> +32 477 43 08 65
+				<a href="https://api.whatsapp.com/send?phone=32486617213" target="_blank">
+					<i class="fab fa-whatsapp fa-lg"></i> ‭0486 61 72 13‬
 				</a>
 			</div>
 		</div>
@@ -66,7 +66,7 @@
 			<div class="col-md-8" id="jumbo_sec_text">
 				<div>
 					<h2>Diensten</h2>
-					<p>Sinds kort beschikken wij over een mobiel osmose systeem. Met dit systeem kunnen grote hoogtes bereikt worden vanop de grond. De tank is gevuld met osmosewater, welk verdeeld wordt via een slang en een uitschuifbare steel. Osmosewater is water waaruit alle onzuiverheden zijn gefilterd. Dit zorgt ervoor dat het water vlekkeloos opdroogt op verschillende oppervlakken. Het water werkt ook als een soort behandeling voor de ruiten en werkt vuilafstotend. Dit zorgt steeds voor de mooie glans op de ramen. Neem gerust een kijkje op onze diensten pagina. Hierop kan u bekijken welke taken iClean voor z’n rekening neemt.</p>
+					<p>Sinds kort beschikken wij over een mobiel osmose systeem. Met dit systeem kunnen grote hoogtes bereikt worden vanop de grond. De tank is gevuld met osmosewater, welk verdeeld wordt via een slang en een uitschuifbare steel. Osmosewater is water waaruit alle onzuiverheden zijn gefilterd, dit zorgt ervoor dat het water vlekkeloos opdroogt op verschillende oppervlakken. Het water werkt ook als een soort behandeling voor de ruiten en werkt vuilafstotend. Dit zorgt steeds voor een mooie glans op de ramen. Neem gerust een kijkje op onze diensten pagina. Hierop kan u bekijken welke taken iClean voor z’n rekening neemt.</p>
 					<p id="services_btn"><a class="btn btn-secondary mx-auto" href="/diensten" role="button">Onze diensten &raquo;</a></p>
 				</div><!-- /id="jumbo_sec_text" -->
 			</div><!-- /col-md-8 -->
@@ -83,7 +83,7 @@
 			<h2>Instagram</h2>
 
 <!--			todo upgrade to full version-->
-			<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/5cbbfc2d7f9f5d1fbdc968cc8bf922e0.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+			<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/4095adf351015dc1b41bffa6436d1a11.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
 
 		</div><!-- /col-md-6 -->
 		<div class="col-md-6 info_col">

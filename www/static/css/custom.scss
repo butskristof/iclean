@@ -14,6 +14,13 @@ nav {
 	img	{
 		height: 30px;
 	}
+
+}
+
+.hidden-md {
+	@media (max-width: 992px) {
+		display: none;
+	}
 }
 
 ::selection {

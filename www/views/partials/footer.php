@@ -16,11 +16,12 @@
 					<!--	<button type="button" data-toggle="modal" data-target="#contactModal">Launch modal</button>-->
 				</a>
 				<!--			WHATSAPP -->
-				<a href="https://api.whatsapp.com/send?phone=32477430865" target="_blank">
+				<a href="https://api.whatsapp.com/send?phone=32486617213" target="_blank">
 					<i class="fab fa-whatsapp fa-lg"></i></a>
 			</span>
 		<span class="float-right">
-				<p>&copy; 2018 iClean</p>
+				<p>&copy; 2018 iClean <br>
+				webdesign by <a href="http://kristofbuts.be">Kristof Buts</a></p>
 			</span>
 	</footer>
 

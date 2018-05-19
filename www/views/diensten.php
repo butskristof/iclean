@@ -26,5 +26,26 @@
 
 	</div><!-- /row -->
 
+	<div class="row">
+
+		<div class="col-md-6">
+			<h2>Garagepoorten</h2>
+
+			<img src="http://placehold.it/400x300" alt="Ramen wassen" class="img-fluid">
+
+			<p class="lead">Reiniging van uw ramen op een professionele manier.</p>
+
+		</div><!-- /col-md-6 -->
+
+		<div class="col-md-6">
+			<h2>Rolluiken</h2>
+
+			<img src="http://placehold.it/400x300" alt="Ramen wassen" class="img-fluid">
+
+			<p class="lead">Sinds kort specialiseren wij ons ook in het reinigen van zonnepanelen.</p>
+
+		</div><!-- /col-md-6 -->
+
+	</div><!-- /row -->
 
 </div><!-- /container -->

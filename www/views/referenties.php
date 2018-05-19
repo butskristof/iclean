@@ -5,7 +5,7 @@
 	<h1>Referenties</h1>
 
 	<?php
-	$files = scandir("static/img/refs/");
+	$files = scandir("static/img/refs/", 0);
 	$files = glob('static/img/refs/*.{jpg,JPG,jpeg,JPEG,png,PNG,gif,GIF}', GLOB_BRACE);
 
 	$noOfFiles = sizeof($files);
