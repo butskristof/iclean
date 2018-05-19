@@ -83,7 +83,7 @@
 			<h2>Instagram</h2>
 
 <!--			todo upgrade to full version-->
-			<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/6f2be986000c59288ad94e80eaee2b5b.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+			<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/5cbbfc2d7f9f5d1fbdc968cc8bf922e0.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
 
 		</div><!-- /col-md-6 -->
 		<div class="col-md-6 info_col">

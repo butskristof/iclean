@@ -26,6 +26,9 @@ Styling specifically for home page
   background-image: url("/static/img/bg/bg1.jpg");
   height: 65vh;
   text-align: center; }
+  @media (min-height: 800px) {
+    #jumbo_main {
+      height: 50vh; } }
   #jumbo_main h1 {
     font-size: 5em; }
   #jumbo_main .lead {
