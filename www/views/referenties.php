@@ -4,6 +4,8 @@
 <div class="container" id="referenties">
 	<h1>Referenties</h1>
 
+	<p class="lead">Klik op een foto voor een grotere versie.</p>
+
 	<?php
 	$files = scandir("static/img/refs/", 0);
 	$files = glob('static/img/refs/*.{jpg,JPG,jpeg,JPEG,png,PNG,gif,GIF}', GLOB_BRACE);

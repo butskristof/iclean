@@ -31,7 +31,7 @@
 		<div class="col-md-6">
 			<h2>Garagepoorten</h2>
 
-			<img src="http://placehold.it/400x300" alt="Ramen wassen" class="img-fluid">
+			<img src="/static/img/foto/garagepoorten.jpg" alt="Garagepoorten" class="img-fluid">
 
 			<p class="lead">Reiniging van uw ramen op een professionele manier.</p>
 
