@@ -67,3 +67,5 @@ Styling specifically for home page
 .contactlinks a {
   text-decoration: none;
   color: black; }
+  .contactlinks a:hover {
+    color: #666666; }

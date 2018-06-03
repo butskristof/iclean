@@ -32,19 +32,20 @@
 				<i class="fas fa-phone"></i> 0474 39 01 40 <br>
 
 				<a href="#" data-toggle="modal" data-target="#contactModal">
-					<i class="far fa-envelope"></i> iclean<span class="invisible">notreallyshowingthis</span>@telenet.be <br>
+<!--					<i class="far fa-envelope"></i> iclean<span class="invisible">notreallyshowingthis</span>@telenet.be <br>-->
+					<i class="far fa-envelope"></i> E-mail<br>
 				</a>
 
 				<a href="https://www.facebook.com/kljwiekevorst" target="_blank">
-					<i class="fab fa-facebook fa-lg"></i> iClean <br>
+					<i class="fab fa-facebook fa-lg"></i> Facebook <br>
 				</a>
 
 				<a href="https://www.instagram.com/iclean1/" target="_blank">
-					<i class="fab fa-instagram fa-lg"></i> iclean1 <br>
+					<i class="fab fa-instagram fa-lg"></i> Instagram <br>
 				</a>
 
 				<a href="https://api.whatsapp.com/send?phone=32486617213" target="_blank">
-					<i class="fab fa-whatsapp fa-lg"></i> ‭0486 61 72 13‬
+					<i class="fab fa-whatsapp fa-lg"></i> WhatsApp
 				</a>
 			</div>
 		</div>

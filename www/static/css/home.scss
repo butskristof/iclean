@@ -2,6 +2,8 @@
 Styling specifically for home page
  */
 
+$linkhover: #666666;
+
 .jumbotron {
 	background-attachment: fixed;
 	background-position: center;
@@ -102,5 +104,9 @@ Styling specifically for home page
 	a {
 		text-decoration: none;
 		color: black;
+
+		&:hover {
+			color: $linkhover;
+		}
 	}
 }
