@@ -16,9 +16,7 @@
 	<div class="row info_col">
 
 		<div class="col-md-8">
-<!--			<h2>Koptekst</h2>-->
-
-			<img src="/static/img/logo/logo.svg" alt="Illustratie van een man die een ruit kuist">
+			<img src="/static/img/logo/logo.svg" alt="iClean logo">
 
 			<p>
 				Welkom bij iClean. Te weinig tijd om zelf uw ramen te reinigen? Moeilijk bereikbare plaatsen? Maak hier vandaag nog komaf mee!  iClean richt zich vooral op particulieren en KMO’s in regio Antwerpen.
@@ -29,23 +27,27 @@
 
 		<div class="col-md-3 offset-md-1">
 			<div class="contactlinks" id="info_col_contact">
-				<i class="fas fa-phone"></i> 0474 39 01 40 <br>
+				<span class="icon-phone"></span>
+				 0474 39 01 40 <br>
 
 				<a href="#" data-toggle="modal" data-target="#contactModal">
-<!--					<i class="far fa-envelope"></i> iclean<span class="invisible">notreallyshowingthis</span>@telenet.be <br>-->
-					<i class="far fa-envelope"></i> E-mail<br>
+					<span class="icon-envelope-o"></span>
+					 E-mail<br>
 				</a>
 
 				<a href="https://www.facebook.com/kljwiekevorst" target="_blank">
-					<i class="fab fa-facebook fa-lg"></i> Facebook <br>
+					<span class="icon-facebook-square"></span>
+					Facebook <br>
 				</a>
 
 				<a href="https://www.instagram.com/iclean1/" target="_blank">
-					<i class="fab fa-instagram fa-lg"></i> Instagram <br>
+					<span class="icon-instagram"></span>
+					Instagram <br>
 				</a>
 
 				<a href="https://api.whatsapp.com/send?phone=32486617213" target="_blank">
-					<i class="fab fa-whatsapp fa-lg"></i> WhatsApp
+					<span class="icon-whatsapp"></span>
+					WhatsApp
 				</a>
 			</div>
 		</div>
@@ -61,8 +63,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
-<!--				<img src="/static/img/foto/trui.jpg" alt="Mitch Falchou, zaakvoerder" class="img-fluid">-->
-				<img src="/static/img/refs/IMG_1171.jpg" alt="Mitch Falchou, zaakvoerder" class="img-fluid">
+				<img src="/static/img/foto/tank.jpg" alt="Tank met osmosewater ingebouwd in auto" class="img-fluid">
 			</div><!-- /col-md-4 -->
 			<div class="col-md-8" id="jumbo_sec_text">
 				<div>
@@ -80,17 +81,11 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-6 info_col">
+		<div class="col-md-6 info_col offset-md-3">
 			<h2>Instagram</h2>
 
 <!--			todo upgrade to full version-->
 			<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/4095adf351015dc1b41bffa6436d1a11.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
-
-		</div><!-- /col-md-6 -->
-		<div class="col-md-6 info_col">
-			<h2>Facebook</h2>
-
-<!--			todo famax embed fb -->
 
 		</div><!-- /col-md-6 -->
 	</div><!-- /row -->

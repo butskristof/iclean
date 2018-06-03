@@ -1,28 +1,28 @@
 	<hr>
 
 	<footer class="container">
-			<span class="float-left icons">
+			<div class="float-left icons">
 	<!--			FB-->
 				<a href="https://facebook.com/kljwiekevorst" target="_blank">
-					<i class="fab fa-facebook fa-lg"></i>
+					<span class="icon-facebook-square"></span>
 				</a>
 				<!--			INSTA-->
 				<a href="https://www.instagram.com/iclean1/" target="_blank">
-					<i class="fab fa-instagram fa-lg"></i>
+					<span class="icon-instagram"></span>
 				</a>
 				<!--			EMAIL-->
 				<a href="#" data-toggle="modal" data-target="#contactModal">
-					<i class="far fa-envelope fa-lg"></i>
-					<!--	<button type="button" data-toggle="modal" data-target="#contactModal">Launch modal</button>-->
+					<span class="icon-envelope-o"></span>
 				</a>
 				<!--			WHATSAPP -->
 				<a href="https://api.whatsapp.com/send?phone=32486617213" target="_blank">
-					<i class="fab fa-whatsapp fa-lg"></i></a>
-			</span>
-		<span class="float-right">
-				<p>&copy; 2018 iClean <br>
-				webdesign by <a href="http://kristofbuts.be">Kristof Buts</a></p>
-			</span>
+					<span class="icon-whatsapp"></span>
+				</a>
+			</div>
+		<div class="float-right">
+				<p>&copy; <?= date('Y'); ?> iClean <br>
+				webdesign by <a href="http://kristofbuts.be" target="_blank">Kristof Buts</a></p>
+		</div>
 	</footer>
 
 	<div class="modal fade" tabindex="-1" role="dialog" id="contactModal">
@@ -59,14 +59,9 @@
 	</div>
 
 	<script src="/static/js/vendor/modernizr-3.5.0.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script>window.jQuery || document.write('<script src="/static/js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+	<script src="/static/js/vendor/jquery-3.2.1.min.js"></script>
+	<script src="/static/js/vendor/bootstrap.bundle.min.js"></script>
 	<script src="/static/js/plugins.js"></script>
-	<script src="/static/js/main.js"></script>
-
 	<script src="/static/js/jquery.magnific-popup.min.js"></script>
 	<script>
 		$(document).ready(function () {

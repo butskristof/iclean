@@ -1,6 +1,0 @@
-{
-    "require": {
-        "spatie/menu": "^2.5",
-        "league/plates": "^3.3"
-    }
-}

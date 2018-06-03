@@ -18,7 +18,7 @@
 		<div class="col-md-6">
 			<h2>Zonnepanelen reinigen</h2>
 
-			<img src="/static/img/foto/zonnepanelen.JPG" alt="Zonnepanelen" class="img-fluid">
+			<img src="/static/img/foto/zonnepanelen.jpg" alt="Zonnepanelen" class="img-fluid">
 
 			<p class="lead">Sinds kort specialiseren wij ons ook in het reinigen van zonnepanelen.</p>
 

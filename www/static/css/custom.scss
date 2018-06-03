@@ -23,6 +23,7 @@ nav {
 	}
 }
 
+// text selection colour
 ::selection {
 	/* WebKit/Blink Browsers */
 	background: $textselectionbg;
@@ -41,6 +42,7 @@ nav {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
+		// word breaks
 		-ms-word-break: break-all;
 		word-break: break-all;
 
@@ -56,10 +58,10 @@ nav {
 footer {
 	height: 3em;
 	vertical-align: middle;
-	// TODO make footer taller
+
 	.icons {
-		font-size: 1.3em;
-		svg {
+		font-size: 1.5em;
+		span {
 			margin: 0 3px;
 		}
 

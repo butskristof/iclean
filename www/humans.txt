@@ -7,9 +7,8 @@
 
 # THANKS
 
-    <name>
-    Mitch Falchou
-    Yannick Van Gorp
+    Mitch Falchou -- business owner
+    Yannick Van Gorp -- business associate
 
 # TECHNOLOGY COLOPHON
 

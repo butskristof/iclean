@@ -27,14 +27,18 @@ $linkhover: #666666;
 		}
 	}
 
-	/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+	// Turn off parallax scrolling for mobile
 	@media only screen and (max-device-width: 1366px) {
 		background-attachment: scroll;
 	}
 }
 
 #jumbo_main {
-	background-image: url("/static/img/bg/bg1.jpg");
+	background-image: url("/static/img/bg/bg1_sm.jpg");
+	@media only screen and (min-width: 769px) {
+		background-image: url("/static/img/bg/bg1_web.jpg");
+	}
+
 	height: 65vh;
 	@media (min-height: 800px) {
 		height: 50vh;
@@ -53,10 +57,17 @@ $linkhover: #666666;
 }
 
 #jumbo_sec {
-	background-image: url("/static/img/bg/bg2.jpg");
+	background-image: url("/static/img/bg/bg2_sm.jpg");
+	@media only screen and (min-width: 769px) {
+		background-image: url("/static/img/bg/bg2_web.jpg");
+	}
 	height: 85vh;
 	@media (max-width: 767px) {
 		height: 120%; // make sure jumbo fits img + text when stacked
+	}
+
+	.container {
+		background: rgba(255, 255, 255, 0.8);
 	}
 	
 	#services_btn {
@@ -81,18 +92,22 @@ $linkhover: #666666;
 
 	img {
 		width: 20%;
-		margin-right: 10px;
+		margin-right: 20px;
 		float: left;
+
+		@media screen and (max-width: 768px) {
+			width: 30%;
+		}
 	}
 
 	#info_col_contact {
-		img {
-			width: 100%;
-		}
 		font-size: 1.3em;
-		//.contactlinks {
-		//	margin-left: 25%;
-		//}
+	}
+
+	.col-md-3.offset-md-1 {
+		@media (min-width: 768px) and (max-width: 992px) {
+			padding: 0px;
+		}
 	}
 }
 
