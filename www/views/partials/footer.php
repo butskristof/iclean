@@ -1,7 +1,8 @@
 	<hr>
 
 	<footer class="container">
-			<div class="float-left icons">
+			<div class="float-left">
+				<div class="icons">
 	<!--			FB-->
 				<a href="https://facebook.com/kljwiekevorst" target="_blank">
 					<span class="icon-facebook-square"></span>
@@ -18,9 +19,13 @@
 				<a href="https://api.whatsapp.com/send?phone=32486617213" target="_blank">
 					<span class="icon-whatsapp"></span>
 				</a>
+				</div>
+<!--				<div>-->
+<!--					<a href="/static/files/Privacybeleid.pdf" target="_blank">Privacybeleid</a>-->
+<!--				</div>-->
 			</div>
 		<div class="float-right">
-				<p>&copy; <?= date('Y'); ?> iClean <br>
+				<p>&copy; <?= date('Y'); ?> iClean <br> <a href="/static/files/Privacybeleid.pdf">Privacybeleid</a> <br>
 				webdesign by <a href="http://kristofbuts.be" target="_blank">Kristof Buts</a></p>
 		</div>
 	</footer>
