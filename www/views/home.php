@@ -35,10 +35,10 @@
 					 E-mail<br>
 				</a>
 
-				<a href="https://www.facebook.com/kljwiekevorst" target="_blank">
-					<span class="icon-facebook-square"></span>
-					Facebook <br>
-				</a>
+<!--				<a href="https://www.facebook.com/kljwiekevorst" target="_blank">-->
+<!--					<span class="icon-facebook-square"></span>-->
+<!--					Facebook <br>-->
+<!--				</a>-->
 
 				<a href="https://www.instagram.com/iclean1/" target="_blank">
 					<span class="icon-instagram"></span>
@@ -62,16 +62,16 @@
 <div class="jumbotron" id="jumbo_sec">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4">
-				<img src="/static/img/foto/tank.jpg" alt="Tank met osmosewater ingebouwd in auto" class="img-fluid">
-			</div><!-- /col-md-4 -->
 			<div class="col-md-8" id="jumbo_sec_text">
 				<div>
 					<h2>Diensten</h2>
-					<p>Sinds kort beschikken wij over een mobiel osmose systeem. Met dit systeem kunnen grote hoogtes bereikt worden vanop de grond. De tank is gevuld met osmosewater, welk verdeeld wordt via een slang en een uitschuifbare steel. Osmosewater is water waaruit alle onzuiverheden zijn gefilterd, dit zorgt ervoor dat het water vlekkeloos opdroogt op verschillende oppervlakken. Het water werkt ook als een soort behandeling voor de ruiten en werkt vuilafstotend. Dit zorgt steeds voor een mooie glans op de ramen. Neem gerust een kijkje op onze diensten pagina. Hierop kan u bekijken welke taken iClean voor z’n rekening neemt.</p>
+					<p>Sinds kort beschikken wij over een mobiel osmosesysteem. Met dit systeem kunnen grote hoogtes bereikt worden vanop de grond. De tank is gevuld met osmosewater, welk verdeeld wordt via een slang en een uitschuifbare steel. Osmosewater is water waaruit alle onzuiverheden zijn gefilterd, wat ervoor zorgt dat het water vlekkeloos opdroogt op verschillende oppervlakken. Het water werkt ook als een soort behandeling voor de ruiten en werkt vuilafstotend. Dit zorgt steeds voor een mooie glans op de ramen. Neem gerust een kijkje op onze diensten pagina. Hierop kan u bekijken welke taken iClean voor z’n rekening neemt.</p>
 					<p id="services_btn"><a class="btn btn-secondary mx-auto" href="/diensten" role="button">Onze diensten &raquo;</a></p>
 				</div><!-- /id="jumbo_sec_text" -->
 			</div><!-- /col-md-8 -->
+			<div class="col-md-4">
+				<img src="/static/img/foto/tank.jpg" alt="Tank met osmosewater ingebouwd in auto" class="img-fluid">
+			</div><!-- /col-md-4 -->
 		</div><!-- /row -->
 	</div><!-- /container -->
 </div><!-- /jumbotron -->

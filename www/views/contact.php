@@ -1,4 +1,4 @@
-<?php $this->layout('template', ['title' => 'iClean - Contact', 'id' => 'contact', 'extracss' => '/static/css/pages.css']) ?>
+<?php $this->layout('template', ['title' => 'Contact - iClean', 'id' => 'contact', 'extracss' => '/static/css/pages.css']) ?>
 
 <div class="container">
 

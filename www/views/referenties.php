@@ -1,4 +1,4 @@
-<?php $this->layout('template', ['title' => 'iClean - Referenties', 'id' => 'referenties', 'extracss' => '/static/css/pages.css']) ?>
+<?php $this->layout('template', ['title' => 'Referenties - iClean', 'id' => 'referenties', 'extracss' => '/static/css/pages.css']) ?>
 
 
 <div class="container" id="referenties">

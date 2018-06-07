@@ -4,9 +4,9 @@
 			<div class="float-left">
 				<div class="icons">
 	<!--			FB-->
-				<a href="https://facebook.com/kljwiekevorst" target="_blank">
-					<span class="icon-facebook-square"></span>
-				</a>
+<!--				<a href="https://facebook.com/kljwiekevorst" target="_blank">-->
+<!--					<span class="icon-facebook-square"></span>-->
+<!--				</a>-->
 				<!--			INSTA-->
 				<a href="https://www.instagram.com/iclean1/" target="_blank">
 					<span class="icon-instagram"></span>
@@ -25,7 +25,7 @@
 <!--				</div>-->
 			</div>
 		<div class="float-right">
-				<p>&copy; <?= date('Y'); ?> iClean <br> <a href="/static/files/Privacybeleid.pdf">Privacybeleid</a> <br>
+				<p>&copy; <?= date('Y'); ?> iClean <br> <a href="/static/files/Privacybeleid.pdf" target="_blank">Privacybeleid</a> <br>
 				webdesign by <a href="http://kristofbuts.be" target="_blank">Kristof Buts</a></p>
 		</div>
 	</footer>
