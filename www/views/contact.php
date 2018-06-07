@@ -1,4 +1,4 @@
-<?php $this->layout('template', ['title' => 'Contact - iClean', 'id' => 'contact', 'extracss' => '/static/css/pages.css']) ?>
+<?php $this->layout('template', ['title' => 'Contact - iClean', 'id' => 'contact']) ?>
 
 <div class="container">
 
@@ -24,15 +24,15 @@
 			<form action="/contact" role="form" method="post">
 				<div class="form-group">
 					<label for="name">Naam</label>
-					<input type="text" class="form-control" id="name" name="name" aria-describedby="Naam" placeholder="Naam" required>
+					<input type="text" class="form-control" id="name" name="name" aria-describedby="Naam" placeholder="Naam" required autocomplete="on">
 				</div>
 				<div class="form-group">
 					<label for="email">E-mailadres</label>
-					<input type="email" class="form-control" id="email" name="email" aria-describedby="E-mailadres" placeholder="E-mailadres" required>
+					<input type="email" class="form-control" id="email" name="email" aria-describedby="E-mailadres" placeholder="E-mailadres" required autocomplete="on">
 				</div>
 				<div class="form-group">
 					<label for="content">Uw bericht</label>
-					<textarea class="form-control" id="content" rows="5" name="msgcontent" aria-describedby="Uw bericht" placeholder="Uw bericht" required></textarea>
+					<textarea class="form-control" id="content" rows="5" name="msgcontent" aria-describedby="Uw bericht" placeholder="Uw bericht" required autocomplete="off"></textarea>
 				</div>
 				<button type="submit" class="btn btn-secondary">Versturen</button>
 			</form>

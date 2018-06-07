@@ -81,3 +81,194 @@ form .btn {
 .invisible {
 	display: none;
 }
+
+
+/*
+Styling specifically for home page
+ */
+
+$linkhover: #666666;
+
+.jumbotron {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	margin: 0;
+
+	// vertical center
+	display: flex;
+	align-items: center;
+
+	.container {
+		padding: 20px;
+		background: rgba(255, 255, 255, 0.7);
+
+		h1 {
+			margin: 0;
+		}
+	}
+
+	// Turn off parallax scrolling for mobile
+	@media only screen and (max-device-width: 1366px) {
+		background-attachment: scroll;
+	}
+}
+
+#jumbo_main {
+	background-image: url("/static/img/bg/bg1_sm.jpg");
+	@media only screen and (min-width: 769px) {
+		background-image: url("/static/img/bg/bg1_web.jpg");
+	}
+
+	height: 65vh;
+	@media (min-height: 800px) {
+		height: 50vh;
+	}
+
+	text-align: center;
+
+	h1 {
+		font-size: 5em;
+	}
+
+	.lead {
+		font-size: 2em;
+	}
+
+}
+
+#jumbo_sec {
+	background-image: url("/static/img/bg/bg2_sm.jpg");
+	@media only screen and (min-width: 769px) {
+		background-image: url("/static/img/bg/bg2_web.jpg");
+	}
+	height: 85vh;
+	@media (max-width: 767px) {
+		height: 120%; // make sure jumbo fits img + text when stacked
+	}
+
+	.container {
+		background: rgba(255, 255, 255, 0.8);
+	}
+
+	#services_btn {
+		text-align: center;
+	}
+
+	// vertically center text next to photo
+	#jumbo_sec_text {
+		text-align: justify;
+		display: flex;
+		align-items: center;
+		h2 {
+			text-align: center;
+		}
+	}
+}
+
+.info_col {
+	text-align: justify;
+	margin: 25px auto;
+
+	h2 {
+		text-align: center;
+	}
+
+	img {
+		width: 20%;
+		margin-right: 20px;
+		float: left;
+
+		@media screen and (max-width: 768px) {
+			width: 30%;
+		}
+	}
+
+	#info_col_contact {
+		font-size: 1.3em;
+	}
+
+	.col-md-3.offset-md-1 {
+		@media (min-width: 768px) and (max-width: 992px) {
+			padding: 0px;
+		}
+	}
+}
+
+.social h2 {
+	text-align: center;
+}
+
+.contactlinks {
+	a {
+		text-decoration: none;
+		color: black;
+
+		&:hover {
+			color: $linkhover;
+		}
+	}
+}
+
+
+/*
+Styling for other pages
+ */
+
+#diensten {
+	h2 {
+		text-align: center;
+	}
+
+	img {
+		display: block;
+		width: 70%;
+		//margin-left: auto;
+		//margin-right: auto;
+
+		margin: 20px auto;
+
+	}
+}
+
+#referenties {
+	.lead {
+		text-align: center;
+	}
+	img {
+		max-height: 250px;
+
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.row {
+		margin: 20px auto;
+	}
+	.col-3 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	@media (max-width: 767px) {
+		.col-3 {
+			padding-right: 0px;
+			padding-left: 0px;
+		}
+		img {
+			max-height: none;
+			width: 90%;
+			margin: 5px 5px;
+		}
+	}
+}
+
+#content {
+	height: auto;
+}
+
+

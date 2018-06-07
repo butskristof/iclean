@@ -44,15 +44,15 @@
 					<!--				MODAL BODY-->
 						<div class="form-group">
 							<label for="name">Naam</label>
-							<input type="text" class="form-control" id="name" name="name" aria-describedby="Naam" placeholder="Naam" required>
+							<input type="text" class="form-control" id="name" name="name" aria-describedby="Naam" placeholder="Naam" required autocomplete="on">
 						</div>
 						<div class="form-group">
 							<label for="email">E-mailadres</label>
-							<input type="email" class="form-control" id="email" name="email" aria-describedby="E-mailadres" placeholder="E-mailadres" required>
+							<input type="email" class="form-control" id="email" name="email" aria-describedby="E-mailadres" placeholder="E-mailadres" required autocomplete="on">
 						</div>
 						<div class="form-group">
 							<label for="content">Uw bericht</label>
-							<textarea class="form-control" rows="5" id="content" name="msgcontent" aria-describedby="Uw bericht" placeholder="Uw bericht" required></textarea>
+							<textarea class="form-control" rows="5" id="content" name="msgcontent" aria-describedby="Uw bericht" placeholder="Uw bericht" required autocomplete="off"></textarea>
 						</div>
 				</div>
 				<div class="modal-footer">
@@ -79,6 +79,27 @@
 				}
 			})
 		});
+	</script>
+	<script>
+		// load css files deferred
+		let cssarray = [
+			"/static/css/normalize.min.css",
+			"https://fonts.googleapis.com/css?family=Open+Sans|Quicksand",
+			"/static/css/main.min.css",
+			"/static/css/magnific-popup.min.css",
+			"/static/css/icomoon.min.css"
+		];
+
+		cssarray.forEach(csslink => {
+			let css = document.createElement("link");
+			css.rel = "stylesheet";
+			css.href = csslink;
+			css.type = "text/css";
+			let cssdefer = document.getElementsByTagName("link")[0];
+			cssdefer.parentNode.insertBefore(css, cssdefer);
+		});
+
+
 	</script>
 
 </body>

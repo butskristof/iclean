@@ -1,4 +1,4 @@
-<?php $this->layout('template', ['title' => 'Pagina niet gevonden - iClean', 'id' => '404', 'extracss' => '/static/css/pages.css']) ?>
+<?php $this->layout('template', ['title' => 'Pagina niet gevonden - iClean', 'id' => '404']) ?>
 
 <div class="container">
 	<h1>Pagina niet gevonden</h1>

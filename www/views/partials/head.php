@@ -28,16 +28,13 @@
 <meta name="theme-color" content="#ffffff">
 
 <!-- STYLESHEETS AND LIBRARIES -->
-<link rel="stylesheet" href="/static/css/normalize.min.css">
 <link rel="stylesheet" href="/static/css/bootstrap.min.css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand" rel="stylesheet">
-<link rel="stylesheet" href="/static/css/main.min.css">
 <link rel="stylesheet" href="/static/css/custom.css">
-<?php
-if ($this->e($extracss)) { ?>
-	<link rel="stylesheet" href="<?=$this->e($extracss)?>">
-<?php }
-?>
 
-<link rel="stylesheet" href="/static/css/magnific-popup.min.css">
-<link rel="stylesheet" href="/static/css/icomoon.css">
+<noscript>
+	<link rel="stylesheet" href="/static/css/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Quicksand" rel="stylesheet">
+	<link rel="stylesheet" href="/static/css/main.min.css">
+	<link rel="stylesheet" href="/static/css/magnific-popup.min.css">
+	<link rel="stylesheet" href="/static/css/icomoon.css">
+</noscript>

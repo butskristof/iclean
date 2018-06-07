@@ -1,4 +1,4 @@
-<?php $this->layout('template', ['title' => 'iClean', 'id' => 'home', 'extracss' => '/static/css/home.css']) ?>
+<?php $this->layout('template', ['title' => 'iClean', 'id' => 'home']) ?>
 
 <!-- JUMBOTRON -->
 
