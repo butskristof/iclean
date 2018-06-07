@@ -32,11 +32,20 @@ Styling for other pages
 	.row {
 		margin: 20px auto;
 	}
+	.col-3 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 	@media (max-width: 767px) {
+		.col-3 {
+			padding-right: 0px;
+			padding-left: 0px;
+		}
 		img {
 			max-height: none;
-			width: 80%;
-			margin: 10px auto;
+			width: 90%;
+			margin: 5px 5px;
 		}
 	}
 }

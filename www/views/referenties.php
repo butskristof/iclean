@@ -22,7 +22,7 @@
 				if ($i + $j < ($noOfFiles)) {
 					?>
 
-					<div class="col-md-3">
+					<div class="col-3">
 						<a href="<?= $files[$i + $j] ?>" class="mfp-link">
 							<img src="<?= $files[$i + $j] ?>" alt="<?= $files[$i+$j] ?>" class="img-fluid">
 						</a>
