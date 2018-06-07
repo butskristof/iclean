@@ -28,21 +28,24 @@
 
 	<div class="row">
 
-		<div class="col-md-6">
+		<div class="col-md-4">
 			<h2>Garagepoorten</h2>
 
 			<img src="/static/img/foto/garagepoorten.jpg" alt="Garagepoorten" class="img-fluid">
 
-			<p class="lead">Reiniging van uw ramen op een professionele manier.</p>
+		</div><!-- /col-md-6 -->
+
+		<div class="col-md-4">
+			<h2>Rolluiken</h2>
+
+			<img src="/static/img/foto/rolluiken.jpg" alt="Ramen wassen" class="img-fluid">
 
 		</div><!-- /col-md-6 -->
 
-		<div class="col-md-6">
-			<h2>Rolluiken</h2>
+		<div class="col-md-4">
+			<h2>Reclamepanelen</h2>
 
-			<img src="http://placehold.it/400x300" alt="Ramen wassen" class="img-fluid">
-
-			<p class="lead">Sinds kort specialiseren wij ons ook in het reinigen van zonnepanelen.</p>
+			<img src="/static/img/foto/switch.jpg" alt="Ramen wassen" class="img-fluid">
 
 		</div><!-- /col-md-6 -->
 

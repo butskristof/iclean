@@ -146,14 +146,20 @@ $linkhover: #666666;
 	@media only screen and (min-width: 769px) {
 		background-image: url("/static/img/bg/bg2_web.jpg");
 	}
-	height: 85vh;
+	height: 70vh;
 	@media (max-width: 767px) {
 		height: 120%; // make sure jumbo fits img + text when stacked
 	}
 
 	.container {
 		background: rgba(255, 255, 255, 0.8);
+		.col-md-4 {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
 	}
+
 
 	#services_btn {
 		text-align: center;
@@ -220,13 +226,14 @@ Styling for other pages
  */
 
 #diensten {
+	text-align: center;
+
 	h2 {
-		text-align: center;
 	}
 
 	img {
 		display: block;
-		width: 70%;
+		width: 95%;
 		//margin-left: auto;
 		//margin-right: auto;
 
